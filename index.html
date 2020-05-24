@@ -1,15 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/main.css">
-    <script defer src="/main.js"></script>
-    <title>Document</title>
-</head>
-<body>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="wing.css">
 
-    <h1>hi, portfolio</h1>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <link rel="manifest" href="favicons/manifest.json">
+    <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
 
-</body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jump.js/1.0.2/jump.min.js"></script>
+    <script src="script.js"></script>
+    <title>Monica Tadeo</title>
+  </head>
+
+  <body>
+    <main>
+      <section class='landing'>
+        <div>
+          <h1 class='animated fadeInDown headline center'>Monica Tadeo</h1>
+          <h4><div class='animated fadeInDown tagline center'>Full Stack Web Developer</div></h4>
+          <br>
+          <div class='animated fadeInDown tagline center'> 
+            <div class = 'socials'>
+              <a href="https://www.linkedin.com/in/monicatadeo/" target="_blank"><img src="images/linkedin.png" class="icon"/></a>
+              <a href="https://github.com/monicaaatadeo" target="_blank"><img src="images/github.png" class="icon"/></a> 
+              <a href ="https://drive.google.com/file/d/1XxrLqKbK6JpgAN5RatYDzsn6myoRBo1K/view?usp=sharing" target="_blank"><img src="images/resume.png" class="icon"/></a>
+              <a href="https://twitter.com/monicaaatadeo" target="_blank"><img src="images/twitter.png" class="icon"/></a> 
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro container" id="intro">
+        <div>
+          <h2 class='header heading'>Hello! 👋</h2>
+          <p>
+            My name is Monica Tadeo. 
+         
+          </p>
+
+          
+          <p>
+          
+          </p>
+        </div>
+      </section>
+
+      <!-- Project Cards -->
+      <section class="projects container">
+        <h2 class="heading">Projects</h2>
+        <div class="cards">
+
+          <div class="card">
+            <h5 class="card-header">Shape 'Em</h5>
+            <p class="card-body">
+              [Placeholder]
+            </p>
+            <div class="card-footer center text-center">
+              <p>
+                <a href="https://github.com/monicaaatadeo/shapeEm" target="_blank">View on Github</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5 class="card-header">HouseWerk</h5>
+            <p class="card-body">
+              [Placeholder]
+            </p>
+            <div class="card-footer center text-center">
+              <p>
+                <a href="" target="_blank">View on Github</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5 class="card-header">WayFarer</h5>
+            <p class="card-body">
+              [Placeholder]
+            </p>
+            <div class="card-footer center text-center">
+              <p>
+                <a href="" target="_blank">View on Github</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <h5 class="card-header">Simply Happy Skin</h5>
+            <p class="card-body">
+              [Placeholder]
+            </p>
+            <div class="card-footer center text-center">
+              <p>
+              <a href="https://simplyhappyskin.herokuapp.com/" target="_blank">View Live</a> |
+              <a href="https://github.com/monicaaatadeo/simplyhappyskin" target="_blank">View on Github</a>
+              </p>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+      <!-- Talks/Blogs -->
+      <!-- <section class="talks container">
+        <h2 class="heading">Talks / Blogs</h2>
+        <div class='talks-container'>
+          <ul>
+            <li><a href="https://reactive-js.firebaseapp.com/" target="_blank">Introduction to Reactive Programming</a>(Github)</li>
+            <li><a href="https://medium.freecodecamp.org/react-higher-order-components-635d0bc38b6c" target="_blank">How to Use React's Higher Order Components</a>(Medium)</li>
+            <li><a href="https://medium.com/@arecvlohe/lets-build-a-local-weather-app-in-elm-87fe246d0d7" target="_blank">Let's Build A Local Weather App in Elm</a>(Medium)</li>
+            <li><a href="https://medium.com/@arecvlohe/functional-programming-in-js-with-ramda-5ea226e76df1" target="_blank">Functional Programming with Ramda</a>(Medium)</li>
+            <li><a href="https://medium.freecodecamp.org/javascript-libraries-and-apis-e9d674dc5690" target="_blank">JavaScript Libraries and APIs</a>(Medium)</li>
+            <li><a href="https://medium.com/@arecvlohe/javascript-functions-and-the-dom-b4735ab7ca5e" target="_blank">JavaScript Functions and the DOM</a>(Medium)</li>
+            <li><a href="https://medium.freecodecamp.org/javascript-functions-af6f9186a553" target="_blank">JavaScript Functions and HTML5 Canvas</a>(Medium)</li>
+            <li><a href="https://medium.com/@arecvlohe/how-i-learned-to-code-5cdf66a72d45" target="_blank">How I learned to Code</a>(Medium)</li>
+            <li><a href="http://slides.com/arecvlohe/what-is-a-monad" target="_blank">What is a Monad?</a>(Slides)</li>
+            <li><a href="https://hocs-js-1f0e4.firebaseapp.com/" target="_blank">React Higher Order Components</a>(Github)</li>
+            <li><a href="http://slides.com/arecvlohe/learn-you-a-elm-for-greater-good" target="_blank">Learn You A Elm For Greater Good</a>              (Slides)</li>
+          </ul>
+        </div>
+      </section> -->
+
+      <!-- Workshops -->
+      <!-- <section class="workshops container">
+        <h2 class="heading">Workshops</h2>
+        <div class="cards">
+          <div class="card">
+            <h5 class="card-header">Full Stack React</h5>
+            <p class="card-body">
+              An optimistic 2 hour workshop to learn full stack JavaScript with React and Node. We only got to part 3 😂.
+            </p>
+            <div class="card-footer center text-center">
+              <p><a href="https://github.com/arecvlohe/fullstack-react-v2" target="_blank">View on Github</a></p>
+            </div>
+          </div>
+          <div class="card">
+            <h5 class="card-header">Idiomatic React and Redux</h5>
+            <p class="card-body">
+              A workshop to learn how to use React with Redux.
+            </p>
+            <div class="card-footer center text-center">
+              <p><a href="https://github.com/arecvlohe/full-stack-react-v3" target="_blank">View on Github</a></p>
+            </div>
+          </div>
+          <div class="card">
+            <h5 class="card-header">Compiler Driven Development in Elm</h5>
+            <p class="card-body">
+              A workshop to learn why the Elm compiler is our friend.
+            </p>
+            <div class="card-footer center text-center">
+              <p><a href="http://elm-lang.org/examples/buttons" target="_blank">View Example the Workshop is Based On</a></p>
+            </div>
+          </div>
+          <div class="card hide-phone">
+            <h5 class="card-header">TBD</h5>
+            <p class="card-body">
+              I had to put something here or the layout would look funny. 😄 But I am sure I will do another workshop at some point in
+              time.
+            </p>
+            <div class="card-footer center text-center">
+              <p>
+                <a href="https://www.youtube.com/watch?v=WyMpZTba5Tc" target="_blank">Want to Laugh?</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- Contact Form -->
+      <section class="contact container">
+        <h2 class="heading">Contact</h2>
+        <form action="https://formspree.io/xeqrevjy" method="POST">
+          <label for="name">Name</label>
+          <input type="text" placeholder=' ' name="name">
+          <label for="email">Email Address</label>
+          <input type="email" placeholder=' ' name="_replyto">
+          <label for="message">Message</label>
+          <textarea placeholder=' ' name="message"></textarea>
+          <input type="hidden" name="_next" value="/thanks.html" />
+          <input type="submit" value="Send">
+        </form>
+      </section>
+
+      <!-- Footer -->
+      <!-- <footer class="container">
+        <small>
+          This site was made with OSS tools: Styles - <a href="http://usewing.ml/" target="_blank">Wing CSS</a> |
+          Smooth Scrolling - <a href="http://callmecavs.com/jump.js/" target="_blank">Jump.js</a> | Animations - <a href="https://daneden.github.io/animate.css/" target="_blank">Animate.css</a> | 
+          Form - <a href="https://formspree.io/" target="_blank">Formspree</a>
+        </small>
+      </footer> -->
+
+
+    </main>
+  </body>
 </html>
