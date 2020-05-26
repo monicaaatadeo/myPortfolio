@@ -17,6 +17,9 @@ I reached my vision of how I wanted my entire website to look like! It might loo
 
 ## Credits 
 [Wing CSS](https://kbrsh.github.io/wing/)
+
 [Smooth Scrolling](http://callmecavs.com/jump.js/)
+
 [Animations - Animate.css](https://animate.style/)
+
 [Formspree](https://formspree.io/)
